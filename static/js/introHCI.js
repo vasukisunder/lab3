@@ -12,7 +12,7 @@ function initializePage() {
 	$("a.thumbnail").click(projectClick);
 
 	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript is connected");
+		$('.jumbotron h1').text("Javascript is working!");
 		$(".jumbotron p").toggleClass("active");
 
 	});
